@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.section1{
+    margin-bottom: 100px;
+}
 .banner {
     top: 50px;
     position: relative;
@@ -29,4 +32,34 @@
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 5rem;
+}
+.section2{
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maindiv, .maindiv-h1{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.maindiv, .maindiv-p{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.maindiv, .maindiv-cata-head{
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
