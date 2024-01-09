@@ -15,25 +15,29 @@
     box-shadow: 20px rgb(40, 40, 40);
 }
 .banner img{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
     width: 100%;
 }
 .img-heading-p{
     color: #fff;
     position: absolute;
-    top: 33%;
+    top: 30%;
     width: 100%;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 40px;
+    
+    border-radius: 16px;
 }
 .img-heading{
     color: #fff;
     position: absolute;
-    top: 40%;
+    top: 36%;
     width: 100%;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 /* section 1  style end */
 
@@ -226,57 +230,60 @@
 
 /* section 6 style start */
 .section-6{
-    margin-top: 150px;
-    width: 71%;
-    height: 915px;
-    border: 0;
-    margin: 120px 120px 10px 256px;
+    margin: 150px 250px 0 250px;
 }
-.div-1 > .div-1-title{
-    text-align: center;
+.div-1 .div-1-title{
     color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    text-align: center;
 }
-.div-1 > .div-1-heading span{
+.div-1 .div-1-heading{
     color: #F00;
-}
-.div-1 > .div-1-heading{
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
 }
-.div-1 > .div-1-message{
+.div-1 .div-1-message{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 20px; /* 160% */
-    margin: 50px 0 80px 0;
+    line-height: 32px; /* 160% */
 }
-.pic-1 {
+
+
+.up{
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
     position: relative;
-    margin-left: 893px;
 }
-.pic-2 {
+.girl{
+    width: 300px;
+}
+.up .discount{
     position: absolute;
-    margin-left: -162px;
+    top: 20%;
+    right: 200px;
+    width: 200px;
 }
-.pic-3{
+.down{
     position: relative;
-    margin-top: -4px;
-    margin-left: 2px;
 }
-.pic-4{
+.red{
+    width: 100%;
+}
+.down  .gift {
     position: absolute;
-    margin-left: -1265px;
-    margin-top: -290px;
+    top: -190px;
+    left: 100px;
+    width: 480px;
 }
+
 /* section 6 style end */
 
 
@@ -328,4 +335,55 @@
     margin-left: 254px;
 }
 /* section 7 style end */
+
+/* section 8 style start */
+.section-8{
+    margin: 150px 250px 0 250px;
+}
+#main-div{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+#main-div .div-img{
+    margin: 80px 0px 50px 500px;
+}
+#main-div .div-heading{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+#main-div .div-message{
+    color: rgba(7, 2, 17, 0.60);
+    margin: 50px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.flex-item{
+    display: flex;
+}
+
+#flex-item .flex-input{
+    padding: 20px 104px 20px 130px;
+    margin-left: 370px;
+    border-radius: 20px 0 0px 20px ;
+    border: 0;
+}
+#flex-item .flex-input [type="placeholder"] {
+    text-align: left;
+}
+#flex-item .flex-btn{
+    padding: 20px 30px 20px 30px;
+    margin-left: -2px;
+    border-radius: 0px 20px 20px 0px ;
+    border: 0;
+    background-color: #F00;
+    color: #fff;
+}
+/* section 8 style end */
 
