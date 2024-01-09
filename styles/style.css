@@ -345,7 +345,7 @@
     background: rgba(255, 0, 0, 0.05);
 }
 #main-div .div-img{
-    margin: 80px 0px 50px 500px;
+    margin: 80px 0px 50px 555px;
 }
 #main-div .div-heading{
     color: #070211;
@@ -373,9 +373,7 @@
     margin-left: 370px;
     border-radius: 20px 0 0px 20px ;
     border: 0;
-}
-#flex-item .flex-input [type="placeholder"] {
-    text-align: left;
+    margin-bottom: 50px;
 }
 #flex-item .flex-btn{
     padding: 20px 30px 20px 30px;
@@ -387,3 +385,43 @@
 }
 /* section 8 style end */
 
+
+/* section 9 style start */
+
+.main-footer{
+    margin-top: 100px;
+    background-color: #070211;
+    height: 450px;
+}
+.footer-div-1{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.footer-div-1 > .footer-flex-1{
+    margin-top: 70px;
+    bottom: 50px;
+}
+.footer-div-1 > .footer-flex-2{
+    margin-top: 70px;
+}
+
+.footer-div-2{
+    display: flex;
+    margin-left: 690px;
+    padding: 20px;
+}
+.footer-div-2 div{
+    margin: 10px;
+}
+hr{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.footer-div-3{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
